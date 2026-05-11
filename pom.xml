@@ -1,225 +1,225 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" 
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
-  <modelVersion>4.0.0</modelVersion>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
 
-  <groupId>io.bosonnetwork</groupId>
-  <artifactId>boson-parent</artifactId>
-  <version>3.0.0-SNAPSHOT</version>
-  <packaging>pom</packaging>
+    <groupId>io.bosonnetwork</groupId>
+    <artifactId>boson-parent</artifactId>
+    <version>3.0.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
 
-  <name>Boson Parent POM</name>
-  <description>
-    The parent POM defines common default configuration for Boson projects
-  </description>
-  <url>https://github.com/bosonnetwork/Boson.Parent</url>
+    <name>Boson Parent POM</name>
+    <description>
+        The parent POM defines common default configuration for Boson projects
+    </description>
+    <url>https://github.com/bosonnetwork/Boson.Parent</url>
 
-  <licenses>
-    <license>
-      <name>MIT License</name>
-      <url>https://github.com/bosonnetwork/Boson.Parent/blob/master/LICENSE</url>
-      <distribution>repo</distribution>
-    </license>
-  </licenses>
+    <licenses>
+        <license>
+            <name>MIT License</name>
+            <url>https://github.com/bosonnetwork/Boson.Parent/blob/master/LICENSE</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
 
-  <developers>
-    <developer>
-      <id>boson-network-dev</id>
-      <name>Boson Network</name>
-      <email>support@bosonnetwork.io</email>
-      <organization>BosonNetwork</organization>
-      <organizationUrl>https://github.com/bosonnetwork</organizationUrl>
-      <roles>
-        <role>architect</role>
-        <role>developer</role>
-      </roles>
-      <properties>
-        <picUrl>https://avatars.githubusercontent.com/u/152134507</picUrl>
-      </properties>
-    </developer>
-  </developers>
+    <developers>
+        <developer>
+            <id>boson-network-dev</id>
+            <name>Boson Network</name>
+            <email>support@bosonnetwork.io</email>
+            <organization>BosonNetwork</organization>
+            <organizationUrl>https://github.com/bosonnetwork</organizationUrl>
+            <roles>
+                <role>architect</role>
+                <role>developer</role>
+            </roles>
+            <properties>
+                <picUrl>https://avatars.githubusercontent.com/u/152134507</picUrl>
+            </properties>
+        </developer>
+    </developers>
 
-  <scm>
-    <connection>scm:git:git@github.com:bosonnetwork/Boson.Parent.git</connection>
-    <developerConnection>scm:git:git@github.com:bosonnetwork/Boson.Parent.git</developerConnection>
-    <url>git@github.com:bosonnetwork/Boson.Parent.git</url>
-  </scm>
+    <scm>
+        <connection>scm:git:git@github.com:bosonnetwork/Boson.Parent.git</connection>
+        <developerConnection>scm:git:git@github.com:bosonnetwork/Boson.Parent.git</developerConnection>
+        <url>git@github.com:bosonnetwork/Boson.Parent.git</url>
+    </scm>
 
-  <properties>
-    <maven.compiler.source>17</maven.compiler.source>
-    <maven.compiler.target>17</maven.compiler.target>
-    <maven.compiler.release>17</maven.compiler.release>
+    <properties>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+        <maven.compiler.release>17</maven.compiler.release>
 
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
-    <maven-jar-plugin.version>3.5.0</maven-jar-plugin.version>
-    <maven-compiler-plugin.version>3.13.0</maven-compiler-plugin.version>
-    <maven-surefire-plugin.version>3.5.5</maven-surefire-plugin.version>
-    <maven-dependency-plugin.version>3.10.0</maven-dependency-plugin.version>
-    <maven-resources-plugin.version>3.5.0</maven-resources-plugin.version>
-    <maven-deploy-plugin.version>3.1.4</maven-deploy-plugin.version>
-    <maven-source-plugin.version>3.4.0</maven-source-plugin.version>
-    <maven-javadoc-plugin.version>3.12.0</maven-javadoc-plugin.version>
-    <maven-gpg-plugin.version>3.2.8</maven-gpg-plugin.version>
-    <exec-maven-plugin.version>3.6.3</exec-maven-plugin.version>
-    <maven-clean-plugin.version>3.4.0</maven-clean-plugin.version>
-    <maven-install-plugin.version>3.1.4</maven-install-plugin.version>
-    <maven-site-plugin.version>3.21.0</maven-site-plugin.version>
-  </properties>
+        <maven-jar-plugin.version>3.5.0</maven-jar-plugin.version>
+        <maven-compiler-plugin.version>3.13.0</maven-compiler-plugin.version>
+        <maven-surefire-plugin.version>3.5.5</maven-surefire-plugin.version>
+        <maven-dependency-plugin.version>3.10.0</maven-dependency-plugin.version>
+        <maven-resources-plugin.version>3.5.0</maven-resources-plugin.version>
+        <maven-deploy-plugin.version>3.1.4</maven-deploy-plugin.version>
+        <maven-source-plugin.version>3.4.0</maven-source-plugin.version>
+        <maven-javadoc-plugin.version>3.12.0</maven-javadoc-plugin.version>
+        <maven-gpg-plugin.version>3.2.8</maven-gpg-plugin.version>
+        <exec-maven-plugin.version>3.6.3</exec-maven-plugin.version>
+        <maven-clean-plugin.version>3.4.0</maven-clean-plugin.version>
+        <maven-install-plugin.version>3.1.4</maven-install-plugin.version>
+        <maven-site-plugin.version>3.21.0</maven-site-plugin.version>
+    </properties>
 
-  <build>
-    <pluginManagement>
-      <plugins>
-        <plugin>
-          <groupId>org.apache.maven.plugins</groupId>
-          <artifactId>maven-jar-plugin</artifactId>
-          <version>${maven-jar-plugin.version}</version>
-          <configuration>
-            <outputDirectory>${project.build.directory}/lib</outputDirectory>
-          </configuration>
-        </plugin>
+    <build>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-jar-plugin</artifactId>
+                    <version>${maven-jar-plugin.version}</version>
+                    <configuration>
+                        <outputDirectory>${project.build.directory}/lib</outputDirectory>
+                    </configuration>
+                </plugin>
 
-        <plugin>
-          <groupId>org.apache.maven.plugins</groupId>
-          <artifactId>maven-compiler-plugin</artifactId>
-          <version>${maven-compiler-plugin.version}</version>
-        </plugin>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-compiler-plugin</artifactId>
+                    <version>${maven-compiler-plugin.version}</version>
+                </plugin>
 
-        <plugin>
-          <groupId>org.apache.maven.plugins</groupId>
-          <artifactId>maven-source-plugin</artifactId>
-          <version>${maven-source-plugin.version}</version>
-          <executions>
-            <execution>
-              <id>attach-sources</id>
-              <goals>
-                <goal>jar</goal>
-              </goals>
-            </execution>
-          </executions>
-        </plugin>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-source-plugin</artifactId>
+                    <version>${maven-source-plugin.version}</version>
+                    <executions>
+                        <execution>
+                            <id>attach-sources</id>
+                            <goals>
+                                <goal>jar</goal>
+                            </goals>
+                        </execution>
+                    </executions>
+                </plugin>
 
-        <plugin>
-          <groupId>org.apache.maven.plugins</groupId>
-          <artifactId>maven-javadoc-plugin</artifactId>
-          <version>${maven-javadoc-plugin.version}</version>
-          <configuration>
-            <show>protected</show>
-            <!-- <doclint>all,-missing</doclint> -->
-          </configuration>
-          <executions>
-            <execution>
-              <id>attach-javadoc</id>
-              <goals>
-                <goal>jar</goal>
-              </goals>
-            </execution>
-          </executions>
-        </plugin>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-javadoc-plugin</artifactId>
+                    <version>${maven-javadoc-plugin.version}</version>
+                    <configuration>
+                        <show>protected</show>
+                        <!-- <doclint>all,-missing</doclint> -->
+                    </configuration>
+                    <executions>
+                        <execution>
+                            <id>attach-javadoc</id>
+                            <goals>
+                                <goal>jar</goal>
+                            </goals>
+                        </execution>
+                    </executions>
+                </plugin>
 
-        <plugin>
-          <groupId>org.apache.maven.plugins</groupId>
-          <artifactId>maven-surefire-plugin</artifactId>
-          <version>${maven-surefire-plugin.version}</version>
-        </plugin>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-surefire-plugin</artifactId>
+                    <version>${maven-surefire-plugin.version}</version>
+                </plugin>
 
-        <plugin>
-          <groupId>org.apache.maven.plugins</groupId>
-          <artifactId>maven-dependency-plugin</artifactId>
-          <version>${maven-dependency-plugin.version}</version>
-          <executions>
-            <execution>
-              <!--
-                <?m2e...?> m2e lifecycle metadata to fix the MDEP-187 error inside eclipse.
-                Ref: https://eclipse.dev/m2e/documentation/release-notes-17.html#new-syntax-for-specifying-lifecycle-mapping-metadata
-              -->
-              <?m2e ignore?>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-dependency-plugin</artifactId>
+                    <version>${maven-dependency-plugin.version}</version>
+                    <executions>
+                        <execution>
+                            <!--
+                              <?m2e...?> m2e lifecycle metadata to fix the MDEP-187 error inside eclipse.
+                              Ref: https://eclipse.dev/m2e/documentation/release-notes-17.html#new-syntax-for-specifying-lifecycle-mapping-metadata
+                            -->
+                            <?m2e ignore?>
 
-              <id>copy-dependencies</id>
-              <phase>package</phase>
-              <goals>
-                <goal>copy-dependencies</goal>
-              </goals>
-              <configuration>
-                <includeScope>runtime</includeScope>
-                <outputDirectory>${project.build.directory}/lib</outputDirectory>
-                <overWriteReleases>false</overWriteReleases>
-                <overWriteSnapshots>false</overWriteSnapshots>
-                <overWriteIfNewer>true</overWriteIfNewer>
-              </configuration>
-            </execution>
-          </executions>
-        </plugin>
+                            <id>copy-dependencies</id>
+                            <phase>package</phase>
+                            <goals>
+                                <goal>copy-dependencies</goal>
+                            </goals>
+                            <configuration>
+                                <includeScope>runtime</includeScope>
+                                <outputDirectory>${project.build.directory}/lib</outputDirectory>
+                                <overWriteReleases>false</overWriteReleases>
+                                <overWriteSnapshots>false</overWriteSnapshots>
+                                <overWriteIfNewer>true</overWriteIfNewer>
+                            </configuration>
+                        </execution>
+                    </executions>
+                </plugin>
 
-        <plugin>
-          <groupId>org.apache.maven.plugins</groupId>
-          <artifactId>maven-resources-plugin</artifactId>
-          <version>${maven-resources-plugin.version}</version>
-        </plugin>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-resources-plugin</artifactId>
+                    <version>${maven-resources-plugin.version}</version>
+                </plugin>
 
-        <plugin>
-          <groupId>org.apache.maven.plugins</groupId>
-          <artifactId>maven-clean-plugin</artifactId>
-          <version>${maven-clean-plugin.version}</version>
-        </plugin>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-clean-plugin</artifactId>
+                    <version>${maven-clean-plugin.version}</version>
+                </plugin>
 
-        <plugin>
-          <groupId>org.apache.maven.plugins</groupId>
-          <artifactId>maven-install-plugin</artifactId>
-          <version>${maven-install-plugin.version}</version>
-        </plugin>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-install-plugin</artifactId>
+                    <version>${maven-install-plugin.version}</version>
+                </plugin>
 
-        <plugin>
-          <groupId>org.apache.maven.plugins</groupId>
-          <artifactId>maven-site-plugin</artifactId>
-          <version>${maven-site-plugin.version}</version>
-        </plugin>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-site-plugin</artifactId>
+                    <version>${maven-site-plugin.version}</version>
+                </plugin>
 
-        <plugin>
-          <groupId>org.apache.maven.plugins</groupId>
-          <artifactId>maven-gpg-plugin</artifactId>
-          <version>${maven-gpg-plugin.version}</version>
-          <executions>
-            <execution>
-              <id>sign-artifacts</id>
-              <phase>verify</phase>
-              <goals>
-                <goal>sign</goal>
-              </goals>
-              <!--
-              <configuration>
-                <gpgArguments>
-                  <arg>\-\-pinentry-mode</arg>
-                  <arg>loopback</arg>
-                </gpgArguments>
-              </configuration>
-              -->
-            </execution>
-          </executions>
-        </plugin>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-gpg-plugin</artifactId>
+                    <version>${maven-gpg-plugin.version}</version>
+                    <executions>
+                        <execution>
+                            <id>sign-artifacts</id>
+                            <phase>verify</phase>
+                            <goals>
+                                <goal>sign</goal>
+                            </goals>
+                            <!--
+                            <configuration>
+                              <gpgArguments>
+                                <arg>\-\-pinentry-mode</arg>
+                                <arg>loopback</arg>
+                              </gpgArguments>
+                            </configuration>
+                            -->
+                        </execution>
+                    </executions>
+                </plugin>
 
-        <plugin>
-          <groupId>org.apache.maven.plugins</groupId>
-          <artifactId>maven-deploy-plugin</artifactId>
-          <version>${maven-deploy-plugin.version}</version>
-        </plugin>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-deploy-plugin</artifactId>
+                    <version>${maven-deploy-plugin.version}</version>
+                </plugin>
 
-        <plugin>
-          <groupId>org.codehaus.mojo</groupId>
-          <artifactId>exec-maven-plugin</artifactId>
-          <version>${exec-maven-plugin.version}</version>
-        </plugin>
-      </plugins>
-    </pluginManagement>
+                <plugin>
+                    <groupId>org.codehaus.mojo</groupId>
+                    <artifactId>exec-maven-plugin</artifactId>
+                    <version>${exec-maven-plugin.version}</version>
+                </plugin>
+            </plugins>
+        </pluginManagement>
 
-    <plugins>
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-gpg-plugin</artifactId>
-      </plugin>
-    </plugins>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-gpg-plugin</artifactId>
+            </plugin>
+        </plugins>
 
-    <defaultGoal>package</defaultGoal>
-  </build>
+        <defaultGoal>package</defaultGoal>
+    </build>
 </project>
